@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.otf');
+}
+
+body {
+    color: #383838;
+    background-color: #fff;
+    font-family: Quicksand, serif;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+#page {
+    margin: 15px;
+    width: 100%;
+}
+
+#header {
+    text-align: center;
+}
+
+/** Header======================================================== */
+.header-nav {
+
+}
+
+.header-nav-list {
+
+}
+
+.header-nav-list li {
+    display: inline;
+    padding: 0 5px;
+
+}
+
+.header-nav-list li a {
+    text-decoration: none;
+    color: #383838;
+    padding: 10px;
+}
+
+.header-nav-list li a:hover, .header-nav-item-current a {
+    background-color: #efefef;
+}
+
+.header-nav-list li a:active {
+    background-color: lightgray;
+}
+/** Sidebar ========================================================*/
+.sidebar {
+
+}
+.sidebar-nav {
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sidebar-nav-list {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar-nav-list li {
+    list-style-type: none;
+    padding: 16px;
+}
+.sidebar-nav-list li a {
+    text-decoration: none;
+    padding: inherit;
+    color: #383838;
+}
+.sidebar-nav-list li a:hover {
+    background-color: #efefef;
+}
+.sidebar-nav-list li a:active {
+    background-color: lightgray;
+}
+.introduction {
+    font-size: 120%;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+/** Article========================================================*/
+.article {
+
+}
+.article-title {
+
+}
+.article-title a {
+    text-decoration: none;
+    color: #383838;
+}
+.article-title a:hover {
+    text-decoration: underline;
+}
+.article-date {
+    color: #939393;
+}
+.article-teaser {
+
+}
+/** Topbar=======================================================*/
+.topbar {
+
+}
+.topbar-nav {
+    text-align: right;
+}
+.topbar-nav-list {
+    display: inline;
+    padding-left: 10px;
+}
+.topbar-nav-list li {
+    display: inline;
+}
+.topbar-nav-list li a {
+    text-decoration: none;
+    color: #383838;
+}
+.topbar-nav-list li a:hover {
+    text-decoration: underline;
+}
